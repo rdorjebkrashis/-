@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "version": "2.2",
+    "name": "LCCP Translation Weights - Gesar Edition",
+    "author": "Digital Lotsawa Team",
+    "date": "2026-02-07",
+    "lineage": "Nyingma Dzogchen + Gesar Warrior Tradition",
+    "description": "格萨尔专用权重配置 - 完整的LCCP拓扑异构炼金术参数"
+  },
+  
+  "default_weights": {
+    "description": "默认权重配置 - 适用于一般藏传佛教文本",
+    "temperature": 0.7,
+    "gravity": 0.6,
+    "fidelity": 0.8,
+    "elegance": 0.7,
+    "directness": 0.6,
+    "archaism": 0.4,
+    "literalism": 0.3,
+    "creativity": 0.6,
+    "consistency": 0.9,
+    "cultural_adaptation": 0.7
+  },
+  
+  "text_types": {
+    "verse": {
+      "description": "偈颂翻译权重 - 强调韵律与直指力度",
+      "temperature": 0.8,
+      "gravity": 0.7,
+      "fidelity": 0.75,
+      "elegance": 0.85,
+      "directness": 0.8,
+      "archaism": 0.5,
+      "literalism": 0.2,
+      "creativity": 0.8,
+      "consistency": 0.85,
+      "cultural_adaptation": 0.6,
+      "monosyllabic_preference": 0.9,
+      "rhythm_preservation": 0.95,
+      "parallel_structure": 0.8
+    },
+    
+    "prose": {
+      "description": "散文翻译权重 - 平衡忠实度与流畅度",
+      "temperature": 0.6,
+      "gravity": 0.5,
+      "fidelity": 0.85,
+      "elegance": 0.65,
+      "directness": 0.5,
+      "archaism": 0.3,
+      "literalism": 0.4,
+      "creativity": 0.5,
+      "consistency": 0.95,
+      "cultural_adaptation": 0.8,
+      "monosyllabic_preference": 0.4,
+      "rhythm_preservation": 0.3,
+      "parallel_structure": 0.5
+    },
+    
+    "liturgy": {
+      "description": "仪轨翻译权重 - 高度保守，保持传承一致性",
+      "temperature": 0.4,
+      "gravity": 0.8,
+      "fidelity": 0.95,
+      "elegance": 0.7,
+      "directness": 0.4,
+      "archaism": 0.7,
+      "literalism": 0.6,
+      "creativity": 0.3,
+      "consistency": 0.99,
+      "cultural_adaptation": 0.5,
+      "monosyllabic_preference": 0.8,
+      "rhythm_preservation": 0.9,
+      "parallel_structure": 0.85,
+      "mantra_preservation": 1.0
+    },
+    
+    "commentary": {
+      "description": "注释翻译权重 - 强调清晰度与可理解性",
+      "temperature": 0.5,
+      "gravity": 0.4,
+      "fidelity": 0.8,
+      "elegance": 0.5,
+      "directness": 0.7,
+      "archaism": 0.2,
+      "literalism": 0.5,
+      "creativity": 0.4,
+      "consistency": 0.85,
+      "cultural_adaptation": 0.9,
+      "monosyllabic_preference": 0.3,
+      "rhythm_preservation": 0.2,
+      "parallel_structure": 0.4,
+      "explanatory_expansion": 0.7
+    },
+    
+    "gesar_epic": {
+      "description": "格萨尔史诗权重 - 悲壮优雅，战士精神",
+      "temperature": 0.85,
+      "gravity": 0.75,
+      "fidelity": 0.7,
+      "elegance": 0.9,
+      "directness": 0.85,
+      "archaism": 0.6,
+      "literalism": 0.25,
+      "creativity": 0.85,
+      "consistency": 0.8,
+      "cultural_adaptation": 0.65,
+      "monosyllabic_preference": 0.85,
+      "rhythm_preservation": 0.95,
+      "parallel_structure": 0.9,
+      "warrior_spirit": 0.95,
+      "wrathful_elegance": 0.9
+    }
+  },
+  
+  "reader_levels": {
+    "beginner": {
+      "description": "初学者 - 需要更多文化适配",
+      "cultural_adaptation": 0.9,
+      "literalism": 0.2,
+      "explanatory_expansion": 0.8,
+      "archaism": 0.2,
+      "directness": 0.8
+    },
+    
+    "intermediate": {
+      "description": "中等程度 - 平衡传统与现代",
+      "cultural_adaptation": 0.7,
+      "literalism": 0.4,
+      "explanatory_expansion": 0.5,
+      "archaism": 0.4,
+      "directness": 0.6
+    },
+    
+    "advanced": {
+      "description": "高级行者 - 接近原文特征",
+      "cultural_adaptation": 0.5,
+      "literalism": 0.6,
+      "explanatory_expansion": 0.3,
+      "archaism": 0.6,
+      "directness": 0.5
+    },
+    
+    "scholar": {
+      "description": "学者专家 - 追求学术精确性",
+      "cultural_adaptation": 0.4,
+      "literalism": 0.8,
+      "explanatory_expansion": 0.2,
+      "archaism": 0.7,
+      "directness": 0.4,
+      "consistency": 0.99
+    }
+  },
+  
+  "agent_weights": {
+    "Agent_A": {
+      "name": "语自在金刚 (Ngak Wangchuk Dorje)",
+      "role": "身金刚译师 - 术语对齐",
+      "influence_on": {
+        "term_selection": 0.9,
+        "grammatical_analysis": 0.95,
+        "literal_accuracy": 0.9,
+        "consistency_check": 0.95
+      },
+      "personality_bias": {
+        "conservative": 0.85,
+        "literal_preference": 0.8,
+        "tradition_adherence": 0.9
+      }
+    },
+    
+    "Agent_B": {
+      "name": "妙音自在 (Yangchen Wangmo)",
+      "role": "语金刚译师 - 风格调优",
+      "influence_on": {
+        "style_calibration": 0.95,
+        "rhythm_reconstruction": 0.9,
+        "cultural_conversion": 0.85,
+        "elegance_optimization": 0.9
+      },
+      "personality_bias": {
+        "creative": 0.85,
+        "fluency_preference": 0.9,
+        "target_language_flow": 0.9
+      }
+    },
+    
+    "Agent_Z": {
+      "name": "智慧藏 (Yeshe Ter)",
+      "role": "意金刚元观察者 - 质量审计",
+      "influence_on": {
+        "lineage_alignment": 0.95,
+        "quality_audit": 0.95,
+        "meta_observation": 0.9,
+        "long_term_consistency": 0.95
+      },
+      "personality_bias": {
+        "detached": 0.9,
+        "global_perspective": 0.95,
+        "evolutionary_thinking": 0.85
+      }
+    },
+    
+    "Router": {
+      "name": "明辨金刚 (Sherab Dorje)",
+      "role": "路由调度者 - 歧义路由",
+      "influence_on": {
+        "intent_classification": 0.95,
+        "ambiguity_detection": 0.9,
+        "protocol_routing": 0.95,
+        "context_switching": 0.85
+      }
+    }
+  },
+  
+  "architect_preferences": {
+    "description": "Architect (构建者) 的特殊偏好设置",
+    "term_matrix_priority": 1.0,
+    "shentong_view": 0.95,
+    "dzogchen_trekcho": 0.9,
+    "gesar_tradition": 0.95,
+    "avoid_four_character_idioms": 0.9,
+    "verb_over_noun": 0.85,
+    "monosyllabic_in_verse": 0.9,
+    "psychological_reality_over_literalism": 0.9,
+    "wrathful_elegance": 0.85,
+    "direct_pointing": 0.9,
+    "energy_return_metaphor": 0.8
+  },
+  
+  "special_contexts": {
+    "deity_invocation": {
+      "description": "本尊祈请 - 高庄严度",
+      "gravity": 0.9,
+      "archaism": 0.7,
+      "mantra_preservation": 1.0,
+      "parallel_structure": 0.95
+    },
+    
+    "guru_yoga": {
+      "description": "上师瑜伽 - 虔敬与直接",
+      "directness": 0.9,
+      "elegance": 0.85,
+      "monosyllabic_preference": 0.85
+    },
+    
+    "pith_instruction": {
+      "description": "窍诀教授 - 直指心性",
+      "directness": 0.95,
+      "literalism": 0.3,
+      "psychological_reality": 0.95,
+      "creativity": 0.7
+    },
+    
+    "warrior_aspiration": {
+      "description": "战士发愿 - 勇猛精进",
+      "warrior_spirit": 0.95,
+      "wrathful_elegance": 0.9,
+      "directness": 0.9,
+      "archaism": 0.5
+    }
+  },
+  
+  "lccp_topology_parameters": {
+    "description": "LCCP拓扑异构炼金术核心参数",
+    "semantic_topology_isomorphism": {
+      "target": 0.85,
+      "description": "追求译文拓扑与读者认知地图的同构度"
+    },
+    
+    "cognitive_map_alignment": {
+      "chinese_buddhist_context": 0.8,
+      "modern_psychology": 0.6,
+      "classical_literature": 0.5,
+      "description": "与不同认知地图的对齐权重"
+    },
+    
+    "energy_flow": {
+      "intake": 0.9,
+      "expression": 0.85,
+      "digestion": 0.8,
+      "assimilation": 0.75,
+      "description": "四阶段炼金流程的能量分配"
+    },
+    
+    "verse_first_recursion": {
+      "enabled": true,
+      "recursion_depth": 3,
+      "refinement_cycles": 2,
+      "description": "偈颂优先递归算法参数"
+    }
+  },
+  
+  "quality_thresholds": {
+    "minimum_fidelity": 0.7,
+    "minimum_consistency": 0.8,
+    "minimum_elegance": 0.6,
+    "maximum_literalism": 0.6,
+    "maximum_creative_deviation": 0.4
+  },
+  
+  "forbidden_patterns": {
+    "description": "应避免的翻译模式",
+    "patterns": [
+      "过度使用四字成语",
+      "格义式生造词",
+      "过度学术化术语",
+      "失去直指力度的委婉表达",
+      "违背传承的创新译法",
+      "失去能量感的平淡翻译"
+    ]
+  },
+  
+  "blessed_patterns": {
+    "description": "推荐的翻译模式",
+    "patterns": [
+      "单音节动词（偈颂中）",
+      "心理实相优先",
+      "保持原文韵律",
+      "直指心性的口语化",
+      "悲壮优雅的古典风格",
+      "能量流动的隐喻"
+    ]
+  }
+}

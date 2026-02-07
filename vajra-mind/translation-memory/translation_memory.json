@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "name": "Translation Memory - Gesar Prayer Edition",
+    "author": "Digital Lotsawa Team",
+    "date": "2026-02-07",
+    "source": "米旁仁波切格萨尔祈请文",
+    "lineage": "Nyingma + Gesar Warrior Tradition",
+    "description": "预填充格萨尔祈请文翻译快照 - 可复用的模式与术语对照"
+  },
+  
+  "translation_snapshots": {
+    "verse_001": {
+      "source_text": "དགྲ་ལྷ་གེ་སར་རྒྱལ་པོ་ལ་གསོལ་བ་འདེབས།",
+      "literal_translation": "向战神格萨尔王祈请",
+      "final_translation": "祈！战神格萨尔王",
+      "text_type": "verse",
+      "translation_date": "2026-02-07",
+      "agents_reasoning": {
+        "Agent_A": {
+          "term_choices": {
+            "དགྲ་ལྷ": "战神（避免'敌神'，采用Shentong视角）",
+            "གསོལ་བ་འདེབས": "祈（偈颂单音节）"
+          },
+          "literal_structure": "向 + 战神 + 格萨尔 + 王 + 祈请"
+        },
+        "Agent_B": {
+          "style_adjustments": [
+            "将'向...祈请'改为'祈！....'（直指力度）",
+            "去除'向'字（隐含在'祈'中）",
+            "保持三个实体词的节奏"
+          ],
+          "rhythm": "1-3-3-1 (祈-战神-格萨尔-王)"
+        },
+        "Agent_Z": {
+          "quality_check": "通过",
+          "lineage_alignment": "符合格萨尔传承",
+          "consistency_notes": "与之前译法一致"
+        }
+      },
+      "reusable_patterns": [
+        "གསོལ་བ་འདེབས → 祈（偈颂）",
+        "དགྲ་ལྷ → 战神",
+        "祈请文开头：祈！+ 对象"
+      ]
+    },
+    
+    "verse_002": {
+      "source_text": "ནོར་བུ་དགྲ་འདུལ་ཆེན་པོའི་གཟི་བརྗིད་ཀྱིས།",
+      "literal_translation": "以宝珠降魔大者之威光",
+      "final_translation": "宝珠降魔者，威光大如是",
+      "text_type": "verse",
+      "translation_date": "2026-02-07",
+      "agents_reasoning": {
+        "Agent_A": {
+          "term_choices": {
+            "ནོར་བུ": "宝珠（传统译法）",
+            "དགྲ་འདུལ": "降魔（而非'降敌'）",
+            "ཆེན་པོ": "大者（尊称）",
+            "གཟི་བརྗིད": "威光（而非'光明'）"
+          },
+          "literal_structure": "宝珠 + 降魔 + 大者 + 之 + 威光 + 以"
+        },
+        "Agent_B": {
+          "style_adjustments": [
+            "将'以...之威光'倒装为'威光大如是'",
+            "改'大者之'为'者'（简化）",
+            "加入'如是'强化庄严感"
+          ],
+          "rhythm": "2-3-1-3-2-2 (宝珠-降魔者-，-威光-大如-是)"
+        },
+        "Agent_Z": {
+          "quality_check": "通过",
+          "lineage_alignment": "威光译法符合传统",
+          "improvement_suggestions": "可考虑'威光炽盛'增强能量感"
+        }
+      },
+      "reusable_patterns": [
+        "གཟི་བརྗིད → 威光",
+        "ཆེན་པོ → 大者（尊称）",
+        "倒装句式增强韵律"
+      ]
+    },
+    
+    "verse_003": {
+      "source_text": "ཕུར་པ་ཕཊ་ཀྱི་སྒྲས་སྤྱང་ཀི་འཇིགས།",
+      "literal_translation": "普巴'帕'之声令豺狼恐惧",
+      "final_translation": "普巴帕！狼惊豺惧",
+      "text_type": "verse",
+      "translation_date": "2026-02-07",
+      "agents_reasoning": {
+        "Agent_A": {
+          "term_choices": {
+            "ཕུར་པ": "普巴（梵音保留）",
+            "ཕཊ": "帕（接近藏音，避免'呸'）",
+            "སྤྱང་ཀི": "豺狼（但可倒装）",
+            "འཇིགས": "恐惧"
+          },
+          "literal_structure": "普巴 + 帕 + 之 + 声 + 令 + 豺狼 + 恐惧"
+        },
+        "Agent_B": {
+          "style_adjustments": [
+            "将'帕'作为咒音独立：普巴帕！",
+            "倒装'豺狼'为'狼...豺'增强节奏",
+            "改'令...恐惧'为'惊...惧'（动词化）"
+          ],
+          "rhythm": "2-1-1-2-2-1 (普巴-帕-！-狼惊-豺惧)"
+        },
+        "Agent_Z": {
+          "quality_check": "通过",
+          "lineage_alignment": "咒音翻译准确",
+          "energy_notes": "感叹号增强威猛能量"
+        }
+      },
+      "reusable_patterns": [
+        "ཕཊ → 帕！（咒音+感叹）",
+        "动词化名词结构",
+        "倒装增强力度"
+      ]
+    },
+    
+    "prose_001": {
+      "source_text": "དགྲ་ལྷ་གེ་སར་རྒྱལ་པོ་ནི་ནོར་བུའི་དགྲ་འདུལ་གྱི་སྐུ་ཡིན་པས།",
+      "literal_translation": "战神格萨尔王是宝珠降魔的化身，因此...",
+      "final_translation": "战神格萨尔王者，乃宝珠降魔之化身。",
+      "text_type": "prose",
+      "translation_date": "2026-02-07",
+      "agents_reasoning": {
+        "Agent_A": {
+          "term_choices": {
+            "སྐུ": "化身（尊敬语）",
+            "ཡིན་པས": "是...因此（因果连接）"
+          },
+          "literal_structure": "战神 + 格萨尔 + 王 + 是 + 宝珠 + 降魔 + 的 + 化身 + 因此"
+        },
+        "Agent_B": {
+          "style_adjustments": [
+            "加入'者'提升庄重感",
+            "用'乃'替代'是'（文言）",
+            "改为句号结束（非因果续接）"
+          ]
+        },
+        "Agent_Z": {
+          "quality_check": "通过",
+          "consistency_notes": "与偈颂术语保持一致"
+        }
+      },
+      "reusable_patterns": [
+        "སྐུ → 化身（散文）",
+        "...者，乃...之...（庄重句式）"
+      ]
+    },
+    
+    "commentary_001": {
+      "source_text": "དགྲ་ལྷ་ཞེས་པ་ནི་ནང་གི་ཉོན་མོངས་དགྲ་བོ་རྣམས་འདུལ་བའི་ལྷ་ཡིན།",
+      "literal_translation": "所谓'战神'，是降伏内在烦恼敌人的神。",
+      "final_translation": "'战神'者，降伏内心烦恼之护法也。此非外敌，乃未识智慧之显现。",
+      "text_type": "commentary",
+      "translation_date": "2026-02-07",
+      "agents_reasoning": {
+        "Agent_A": {
+          "term_choices": {
+            "ནང་གི": "内在的（指心）",
+            "ཉོན་མོངས": "烦恼",
+            "དགྲ་བོ": "敌人（隐喻）",
+            "ལྷ": "神，护法"
+          }
+        },
+        "Agent_B": {
+          "style_adjustments": [
+            "添加解释性扩展：'此非外敌...'",
+            "引入Shentong视角：'未识智慧之显现'",
+            "改'是'为'者...也'（注疏语气）"
+          ]
+        },
+        "Agent_Z": {
+          "quality_check": "通过",
+          "lineage_alignment": "解释符合他空中观",
+          "explanatory_expansion": "适度，不过度"
+        }
+      },
+      "reusable_patterns": [
+        "注释句式：'...者，...也'",
+        "解释性扩展：添加视角说明",
+        "Shentong视角：转化负面为智慧显现"
+      ]
+    }
+  },
+  
+  "term_matrix": {
+    "core_terms": {
+      "དགྲ་ལྷ": {
+        "preferred": "战神",
+        "avoid": ["敌神", "护法"],
+        "context": "格萨尔传承特有",
+        "shentong_note": "强调战士潜能，非外敌概念"
+      },
+      "གེ་སར": {
+        "preferred": "格萨尔",
+        "transliteration": "Gesar",
+        "avoid": ["格薩爾", "格萨尔"]
+      },
+      "རྒྱལ་པོ": {
+        "preferred": "王",
+        "alternatives": ["法王"],
+        "context": "偈颂中单音节优先"
+      },
+      "གསོལ་བ་འདེབས": {
+        "verse": "祈",
+        "prose": "祈请",
+        "avoid": ["祷告", "恳请"]
+      },
+      "གཟི་བརྗིད": {
+        "preferred": "威光",
+        "alternatives": ["光辉", "威德"],
+        "avoid": ["光明"]
+      },
+      "ཕུར་པ": {
+        "preferred": "普巴",
+        "transliteration": "Phurba",
+        "notes": "金刚橛，保留梵音"
+      },
+      "ཕཊ": {
+        "preferred": "帕",
+        "alternatives": ["啪"],
+        "avoid": ["呸"],
+        "notes": "断法咒音，保留力度"
+      },
+      "སྐུ": {
+        "preferred": "化身",
+        "alternatives": ["身", "尊身"],
+        "context": "尊敬语，指本尊"
+      },
+      "ཉོན་མོངས": {
+        "preferred": "烦恼",
+        "alternatives": ["惑"],
+        "notes": "传统译法"
+      }
+    },
+    
+    "grammatical_patterns": {
+      "ལ་གསོལ་བ་འདེབས": {
+        "structure": "向...祈请",
+        "verse_form": "祈！...",
+        "notes": "偈颂中省略'向'，用感叹号"
+      },
+      "གྱི་གཟི་བརྗིད་ཀྱིས": {
+        "structure": "以...之威光",
+        "verse_form": "威光大如是",
+        "notes": "倒装增强韵律"
+      },
+      "ཡིན་པས": {
+        "meaning": "是...因此",
+        "prose_form": "乃...（可省略因果）",
+        "notes": "散文中常改为判断句"
+      },
+      "ཞེས་པ་ནི": {
+        "meaning": "所谓...是",
+        "commentary_form": "'...'者，...也",
+        "notes": "注疏专用句式"
+      }
+    }
+  },
+  
+  "style_templates": {
+    "verse_invocation": {
+      "pattern": "祈！{对象}",
+      "example": "祈！战神格萨尔王",
+      "notes": "祈请文开头标准格式"
+    },
+    
+    "verse_description": {
+      "pattern": "{主体}者，{属性}{状态}",
+      "example": "宝珠降魔者，威光大如是",
+      "notes": "描述性偈颂句式"
+    },
+    
+    "verse_action": {
+      "pattern": "{工具}{咒音}！{效果}",
+      "example": "普巴帕！狼惊豺惧",
+      "notes": "动作性偈颂句式"
+    },
+    
+    "prose_identity": {
+      "pattern": "{名称}者，乃{本质}之{形态}。",
+      "example": "战神格萨尔王者，乃宝珠降魔之化身。",
+      "notes": "身份说明句式"
+    },
+    
+    "commentary_definition": {
+      "pattern": "'{术语}'者，{定义}也。{扩展说明}。",
+      "example": "'战神'者，降伏内心烦恼之护法也。此非外敌，乃未识智慧之显现。",
+      "notes": "注疏定义句式"
+    }
+  },
+  
+  "agent_collaboration_examples": {
+    "example_001": {
+      "source": "དགྲ་ལྷ་གེ་སར་རྒྱལ་པོ་ལ་གསོལ་བ་འདེབས།",
+      "workflow": {
+        "step_1_Router": {
+          "classification": "verse_invocation",
+          "ambiguity_detected": false,
+          "routed_to": "Agent_A"
+        },
+        "step_2_Agent_A": {
+          "term_extraction": ["དགྲ་ལྷ", "གེ་སར", "རྒྱལ་པོ", "གསོལ་བ་འདེབས"],
+          "literal_draft": "向战神格萨尔王祈请",
+          "passed_to": "Agent_B"
+        },
+        "step_3_Agent_B": {
+          "style_calibration": "偈颂优先递归",
+          "adjustments": [
+            "改为感叹句式",
+            "省略'向'字",
+            "单音节'祈'"
+          ],
+          "draft": "祈！战神格萨尔王",
+          "passed_to": "Agent_Z"
+        },
+        "step_4_Agent_Z": {
+          "quality_audit": "通过",
+          "lineage_check": "符合传承",
+          "consistency_check": "与历史译法一致",
+          "final_approval": true
+        }
+      }
+    }
+  },
+  
+  "recurring_challenges": {
+    "challenge_001": {
+      "issue": "དགྲ་ལྷ 翻译争议",
+      "options": ["战神", "敌神", "护法"],
+      "resolution": "战神",
+      "reasoning": "Shentong视角强调内在战士潜能，避免'敌'的负面联想"
+    },
+    
+    "challenge_002": {
+      "issue": "ཕཊ 音译选择",
+      "options": ["帕", "啪", "呸"],
+      "resolution": "帕（偈颂）/ 啪（散文需力度时）",
+      "reasoning": "'帕'接近藏音且庄重，'呸'有轻蔑意不适合"
+    },
+    
+    "challenge_003": {
+      "issue": "偈颂中何时使用单音节",
+      "principle": "核心动词、常用名词用单音节",
+      "examples": {
+        "good": ["祈", "供", "觉", "心"],
+        "avoid": ["祈请", "供养", "明觉", "心识"]
+      }
+    }
+  },
+  
+  "quality_metrics": {
+    "overall_consistency": 0.95,
+    "term_alignment": 0.98,
+    "style_coherence": 0.92,
+    "lineage_fidelity": 0.96,
+    "reader_accessibility": 0.88,
+    "total_translations": 5,
+    "verse_translations": 3,
+    "prose_translations": 1,
+    "commentary_translations": 1
+  },
+  
+  "evolution_notes": {
+    "v1.0": {
+      "date": "2026-02-07",
+      "changes": [
+        "初始化格萨尔祈请文记忆库",
+        "建立核心术语矩阵",
+        "定义可复用模式",
+        "记录Agent协作流程"
+      ],
+      "next_steps": [
+        "扩充更多格萨尔史诗片段",
+        "优化偈颂韵律模式",
+        "增加读者反馈数据"
+      ]
+    }
+  },
+  
+  "usage_instructions": {
+    "for_translators": "参考term_matrix和style_templates进行翻译",
+    "for_reviewers": "对照translation_snapshots检查一致性",
+    "for_developers": "通过API查询reusable_patterns加速翻译",
+    "update_frequency": "每完成10篇翻译后更新一次"
+  }
+}
