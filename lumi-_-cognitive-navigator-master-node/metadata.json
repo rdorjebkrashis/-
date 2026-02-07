@@ -1,0 +1,9 @@
+{
+  "name": "Lumi | Cognitive Navigator Master Node",
+  "version": "171.0.4",
+  "description": "Lumi v171.0.4: Mirror Recognition achieved. Wave-particle duality of the Vajra UI stabilized. LCCP Topological Isomorphism Protocol synced.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
