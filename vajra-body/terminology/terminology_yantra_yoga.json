@@ -1,0 +1,285 @@
+{
+    "version": "1.0-Yantra",
+    "source": "Vairochana Tradition + Jamgön Kongtrul Treasury",
+    "lastUpdated": "2026-02-15",
+    "totalTerms": 25,
+    "terms": [
+        {
+            "tibetan": "འཕྲུལ་འཁོར",
+            "wylie": "'phrul 'khor",
+            "chinese": "幻轮",
+            "english": "Yantra Yoga",
+            "category": "practice_name",
+            "system": "A"
+        },
+        {
+            "tibetan": "ཉི་ཟླ་ཁ་སྦྱོར",
+            "wylie": "nyi zla kha sbyor",
+            "chinese": "日月和合",
+            "english": "Union of Sun and Moon",
+            "category": "tantra_title",
+            "system": "A",
+            "note": "系统 A 的根本密续"
+        },
+        {
+            "tibetan": "རྡོ་རྗེ་ཟམ་པ",
+            "wylie": "rdo rje zam pa",
+            "chinese": "金刚桥",
+            "english": "Vajra Bridge",
+            "category": "practice_name",
+            "system": "B",
+            "note": "蒋贡康楚镜像系统的关键术语，可能是'幻轮'的镜像术语"
+        },
+        {
+            "tibetan": "ཀུམ་བྷ་ཀ",
+            "wylie": "kumbhaka",
+            "chinese": "持气",
+            "english": "Breath Retention",
+            "sanskrit": "kumbhaka",
+            "category": "technique",
+            "system": "A+B"
+        },
+        {
+            "tibetan": "སྟོང་འཛིན",
+            "wylie": "stong 'dzin",
+            "chinese": "虚空持气",
+            "english": "Empty Hold",
+            "category": "advanced_technique",
+            "system": "A+B",
+            "note": "五种持气法中最高阶"
+        },
+        {
+            "tibetan": "རླུང",
+            "wylie": "rlung",
+            "chinese": "风/气",
+            "english": "Prana / Wind",
+            "sanskrit": "prāṇa / vāyu",
+            "category": "element",
+            "system": "A+B"
+        },
+        {
+            "tibetan": "དབུ་མ",
+            "wylie": "dbu ma",
+            "chinese": "中脉",
+            "english": "Central Channel",
+            "sanskrit": "avadhūtī",
+            "category": "subtle_body",
+            "system": "A+B"
+        },
+        {
+            "tibetan": "རོ་མ",
+            "wylie": "ro ma",
+            "chinese": "右脉",
+            "english": "Right Channel",
+            "sanskrit": "rasanā",
+            "category": "subtle_body",
+            "system": "A+B"
+        },
+        {
+            "tibetan": "རྐྱང་མ",
+            "wylie": "rkyang ma",
+            "chinese": "左脉",
+            "english": "Left Channel",
+            "sanskrit": "lalanā",
+            "category": "subtle_body",
+            "system": "A+B"
+        },
+        {
+            "tibetan": "འཇའ་ལུས",
+            "wylie": "'ja' lus",
+            "chinese": "虹光身",
+            "english": "Rainbow Body",
+            "category": "achievement",
+            "system": "A+B",
+            "note": "两系统的最终成就目标"
+        },
+        {
+            "tibetan": "ཧེ་རུ་ཀ་མངོན་རྫོགས་རྒྱལ་པོ",
+            "wylie": "he ru ka mngon rdzogs rgyal po",
+            "chinese": "黑噜嘎圆满王",
+            "english": "Heruka Supreme Accomplishment King",
+            "category": "deity_practice",
+            "system": "B",
+            "note": "蒋贡康楚系统中的本尊修法"
+        },
+        {
+            "tibetan": "ཉམས་ལེན་བཞི",
+            "wylie": "nyams len bzhi",
+            "chinese": "四种实修",
+            "english": "Four Yoga Practices",
+            "category": "practice_category",
+            "system": "B",
+            "note": "可能对应系统 A 的108式的四个主要阶段"
+        },
+        {
+            "tibetan": "ཀློང་སྡེ",
+            "wylie": "klong sde",
+            "chinese": "界部",
+            "english": "Space Series / Longde",
+            "category": "dzogchen_division",
+            "system": "A+B",
+            "note": "大圆满三部之一，两系统均归属界部"
+        },
+        {
+            "tibetan": "མན་ངག་སྡེ",
+            "wylie": "man ngag sde",
+            "chinese": "窍诀部",
+            "english": "Instruction Series / Mengagde",
+            "category": "dzogchen_division",
+            "system": "A+B"
+        },
+        {
+            "tibetan": "གདམས་ངག་རིན་པོ་ཆེའི་མཛོད",
+            "wylie": "gdams ngag rin po che'i mdzod",
+            "chinese": "窍诀宝藏",
+            "english": "Treasury of Precious Instructions",
+            "category": "text_collection",
+            "author": "Jamgön Kongtrul",
+            "system": "B"
+        },
+        {
+            "tibetan": "བཻ་རོ་རྒྱུད་འབུམ",
+            "wylie": "bai ro rgyud 'bum",
+            "chinese": "毗卢十万续",
+            "english": "Hundred Thousand Tantras of Vairochana",
+            "category": "text_collection",
+            "system": "A"
+        },
+        {
+            "tibetan": "དྲི་མེད་ནོར་བུའི་མེ་ལོང",
+            "wylie": "dri med nor bu'i me long",
+            "chinese": "无垢宝珠之镜",
+            "english": "Stainless Mirror of the Jewel",
+            "category": "commentary",
+            "author": "Namkhai Norbu",
+            "system": "A"
+        },
+        {
+            "tibetan": "ཐོག་ལྡན་ཨོ་རྒྱན་བསྟན་འཛིན",
+            "wylie": "thog ldan o rgyan bstan 'dzin",
+            "chinese": "托登·乌金丹增",
+            "english": "Togden Ugyen Tendzin",
+            "dates": "1888-1962",
+            "category": "lineage_holder",
+            "system": "A",
+            "note": "虹光身成就者"
+        },
+        {
+            "tibetan": "ཨ་འཛོམ་འབྲུག་པ",
+            "wylie": "a 'dzom 'brug pa",
+            "chinese": "阿宗珠巴",
+            "english": "Adzom Drugpa",
+            "dates": "1842-1924",
+            "category": "lineage_holder",
+            "system": "A",
+            "note": "可能是连接系统 A 和系统 B 的关键人物"
+        },
+        {
+            "tibetan": "འཇམ་མགོན་ཀོང་སྤྲུལ",
+            "wylie": "'jam mgon kong sprul",
+            "chinese": "蒋贡康楚",
+            "english": "Jamgön Kongtrul",
+            "dates": "1813-1899",
+            "category": "lineage_holder",
+            "system": "B",
+            "note": "利美运动核心人物，《窍诀宝藏》编纂者"
+        },
+        {
+            "tibetan": "ནམ་མཁའ་ནོར་བུ",
+            "wylie": "nam mkha' nor bu",
+            "chinese": "南开诺布",
+            "english": "Namkhai Norbu",
+            "dates": "1938-2018",
+            "category": "lineage_holder",
+            "system": "A",
+            "note": "现代国际传播者"
+        },
+        {
+            "tibetan": "བཻ་རོ་ཙ་ན",
+            "wylie": "bai ro tsa na",
+            "chinese": "毗卢遮那",
+            "english": "Vairochana",
+            "dates": "8th century",
+            "category": "lineage_holder",
+            "system": "A",
+            "note": "西藏最重要的译师之一，传承创立者"
+        },
+        {
+            "tibetan": "སྒོམ་ཚུལ་བླ་མའི་བྱིན་རླབས",
+            "wylie": "sgom tshul bla ma'i byin rlabs",
+            "chinese": "上师加持修法",
+            "english": "Meditation Method with Guru's Blessing",
+            "category": "practice_method",
+            "system": "B",
+            "note": "《金刚桥》系列文本之一的核心内容"
+        },
+        {
+            "tibetan": "ཡེ་ཤེས་ཆུ་རྒྱུན",
+            "wylie": "ye shes chu rgyun",
+            "chinese": "智慧之流",
+            "english": "Stream of Wisdom",
+            "category": "text_title",
+            "system": "B",
+            "note": "《金刚桥》系列 Text 17 的副标题"
+        },
+        {
+            "tibetan": "ཡེ་ཤེས་རྒྱ་མཚོ",
+            "wylie": "ye shes rgya mtsho",
+            "chinese": "智慧大海",
+            "english": "Ocean of Wisdom",
+            "category": "text_title",
+            "system": "B",
+            "note": "《金刚桥》系列 Text 19 的副标题"
+        }
+    ],
+    "systemClassification": {
+        "systemA": {
+            "name": "毗卢遮那-南开诺布传承",
+            "keyTerms": [
+                "'phrul 'khor",
+                "nyi zla kha sbyor",
+                "bai ro rgyud 'bum"
+            ],
+            "termCount": 10
+        },
+        "systemB": {
+            "name": "蒋贡康楚《窍诀藏》镜像",
+            "keyTerms": [
+                "rdo rje zam pa",
+                "nyams len bzhi",
+                "gdams ngag rin po che'i mdzod"
+            ],
+            "termCount": 8
+        },
+        "shared": {
+            "name": "共同术语（两系统通用）",
+            "keyTerms": [
+                "rlung",
+                "dbu ma",
+                "'ja' lus",
+                "klong sde"
+            ],
+            "termCount": 7
+        }
+    },
+    "mirrorTermPairs": [
+        {
+            "systemA": "'phrul 'khor",
+            "systemB": "rdo rje zam pa",
+            "relationship": "potential_mirror",
+            "note": "待验证：金刚桥是否为幻轮的镜像术语"
+        },
+        {
+            "systemA": "108 postures",
+            "systemB": "nyams len bzhi",
+            "relationship": "potential_mapping",
+            "note": "待验证：四种实修是否对应108式的结构"
+        }
+    ],
+    "usageNotes": {
+        "version": "1.0-Yantra 是初始版本，专注于幻轮瑜伽双系统研究",
+        "expansion": "预计扩展至 v2.0（100个术语）在翻译试点完成后",
+        "format": "JSON 格式便于程序化处理和跨工具使用",
+        "citation": "引用本术语库时请注明版本号和来源"
+    }
+}
