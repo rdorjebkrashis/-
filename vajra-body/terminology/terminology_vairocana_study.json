@@ -1,0 +1,124 @@
+{
+  "version": "1.0-Vairocana-Study",
+  "source": "Architect's Bayesian Brain Terma",
+  "research": "Technological Celibacy & Psychodynamic Reconstruction",
+  "totalTerms": 15,
+  "terms": [
+    {
+      "english": "Technological Celibacy",
+      "chinese": "技术性独身",
+      "definition": "通过内化的气脉视觉技术，完全替代实体性瑜伽的修持体系",
+      "context": "毗卢遮那通过引入界部教法建立的独身神学",
+      "category": "theoretical_framework"
+    },
+    {
+      "english": "Non-normative Identity",
+      "chinese": "非规范性身份认同",
+      "definition": "不符合社会主流性取向或性别表达的身份特质",
+      "context": "毗卢遮那可能的非异性恋或无性恋倾向",
+      "category": "psychological"
+    },
+    {
+      "english": "Narcissistic Injury",
+      "chinese": "自恋性损伤",
+      "definition": "自我价值感受到严重威胁时产生的心理创伤",
+      "context": "玛坚玛王妃被拒绝后的愤怒反应",
+      "category": "psychological"
+    },
+    {
+      "tibetan": "ཀློང་སྡེ",
+      "wylie": "klong sde",
+      "chinese": "界部",
+      "english": "Space Series / Longde",
+      "definition": "大圆满三部之一，强调虚空性与视法",
+      "category": "dzogchen_division"
+    },
+    {
+      "sanskrit": "Jñānapāda",
+      "chinese": "智足派",
+      "english": "Jñanapada School",
+      "definition": "密集金刚的一个传承派别，强调明点瑜伽与内化修持",
+      "category": "tantra_school"
+    },
+    {
+      "sanskrit": "Bindu Yoga",
+      "chinese": "明点瑜伽",
+      "tibetan": "ཐིག་ལེའི་རྣལ་འབྱོར",
+      "wylie": "thig le'i rnal 'byor",
+      "definition": "通过专注微细明点引发气脉转化的密续技术",
+      "category": "practice"
+    },
+    {
+      "tibetan": "ནམ་མཁའི་ལྟ་བ",
+      "wylie": "nam mkha'i lta ba",
+      "chinese": "虚空视法",
+      "english": "Gaze of Space",
+      "definition": "界部核心修法，通过凝视虚空引发本觉显现",
+      "category": "practice"
+    },
+    {
+      "tibetan": "ལས་ཀྱི་ཕྱག་རྒྱ",
+      "wylie": "las kyi phyag rgya",
+      "chinese": "业印",
+      "english": "Karmamudra",
+      "sanskrit": "Karmamudra",
+      "definition": "实体明妃，密续双运修法中的伴侣",
+      "category": "tantra_term"
+    },
+    {
+      "tibetan": "མར་རྒྱལ་མ",
+      "wylie": "mar rgyal ma",
+      "chinese": "玛坚玛",
+      "english": "Queen Margyenma",
+      "definition": "赤松德赞王妃，诱惑毗卢遮那被拒后诬陷他",
+      "category": "historical_figure"
+    },
+    {
+      "tibetan": "བཻ་རོ་ཙ་ན",
+      "wylie": "bai ro tsa na",
+      "chinese": "毗卢遮那",
+      "english": "Vairotsana",
+      "dates": "8th century",
+      "definition": "大译师，大圆满界部主要传入者",
+      "category": "lineage_holder"
+    },
+    {
+      "tibetan": "རྒྱལ་རོང",
+      "wylie": "rgyal rong",
+      "chinese": "嘉绒",
+      "english": "Gyalrong",
+      "definition": "四川藏区，毗卢遮那被流放地（今马尔康一带）",
+      "category": "location"
+    },
+    {
+      "english": "Spiritual Sovereignty",
+      "chinese": "精神主权",
+      "definition": "通过教法建立的不受世俗权力支配的自主性",
+      "context": "毗卢遮那通过界部教法宣告的独立性",
+      "category": "theoretical_framework"
+    },
+    {
+      "english": "Structural Indifference",
+      "chinese": "结构性冷漠",
+      "definition": "对特定刺激（如异性魅力）在身份层面的根本性无感",
+      "context": "毗卢遮那对玛坚玛的反应",
+      "category": "psychological"
+    },
+    {
+      "english": "Platonic Intimacy",
+      "chinese": "柏拉图式情谊",
+      "definition": "超越肉体欲望的精神性深度连接",
+      "context": "毗卢遮那与莲师的关系重构",
+      "category": "theoretical_framework"
+    },
+    {
+      "tibetan": "གསང་བ་འདུས་པ",
+      "wylie": "gsang ba 'dus pa",
+      "chinese": "密集金刚",
+      "english": "Guhyasamaja",
+      "sanskrit": "Guhyasamāja",
+      "definition": "无上瑜伽部重要本尊与密续",
+      "category": "tantra"
+    }
+  ]
+}
