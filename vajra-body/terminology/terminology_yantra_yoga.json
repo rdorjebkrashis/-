@@ -1,6 +1,13 @@
 {
-    "version": "1.0-Yantra",
-    "source": "Vairochana Tradition + Jamgön Kongtrul Treasury",
+    "version": "1.1-Embodied",
+    "source": "Living Transmission + Textual Sources",
+    "knowledgeHierarchy": {
+        "primary": "Architect's embodied experience (10 years Sichuan, yantra retreat)",
+        "secondary": "Lineage oral instructions",
+        "tertiary": "Tibetan root texts",
+        "quaternary": "Modern neuroscience"
+    },
+    "metaphor": "We are gardeners tending to the ten-thousand-year-old tree of Dzogchen",
     "lastUpdated": "2026-02-15",
     "totalTerms": 25,
     "terms": [
