@@ -1,0 +1,156 @@
+{
+    "version": "1.0-BinaryStar",
+    "source": "Architect's Bayesian Brain + Historical Analysis",
+    "research": "Binary Star Topology & Terma System",
+    "totalTerms": 20,
+    "terms": [
+        {
+            "english": "Binary Star Topology",
+            "chinese": "双星拓扑",
+            "tibetan": "སྐར་མ་གཉིས་ཀྱི་དབྱིབས",
+            "definition": "伏藏系统中两个互补人物同期出现形成的张力结构",
+            "examples": "莲师-毗卢遮那，格萨尔-荣索",
+            "category": "theoretical_framework"
+        },
+        {
+            "tibetan": "རིག་པ",
+            "wylie": "rig pa",
+            "chinese": "明觉",
+            "english": "Rigpa",
+            "definition": "本觉、心性、明空不二的证悟状态",
+            "category": "dzogchen_term"
+        },
+        {
+            "tibetan": "རིག་འཛིན",
+            "wylie": "rig 'dzin",
+            "chinese": "持明",
+            "english": "Vidyadhara",
+            "sanskrit": "Vidyādhara",
+            "definition": "持有明觉、安住本觉的成就者",
+            "category": "attainment"
+        },
+        {
+            "tibetan": "གཏེར་མ",
+            "wylie": "gter ma",
+            "chinese": "伏藏",
+            "english": "Terma",
+            "definition": "莲师埋藏的教法，由伏藏师取出",
+            "category": "transmission"
+        },
+        {
+            "english": "Topological Isomorphism",
+            "chinese": "拓扑同构",
+            "definition": "不同历史时期人物关系结构的数学相似性",
+            "category": "theoretical_framework"
+        },
+        {
+            "english": "Tension Theater",
+            "chinese": "张力剧场",
+            "definition": "通过互补对立创造的动态平衡系统",
+            "category": "theoretical_framework"
+        },
+        {
+            "tibetan": "ཨོ་རྒྱན",
+            "wylie": "o rgyan",
+            "chinese": "邬金",
+            "english": "Uddiyana",
+            "definition": "莲师出生地，密续圣地（今巴基斯坦/阿富汗一带）",
+            "category": "location"
+        },
+        {
+            "tibetan": "མན་དཱ་ར་བ",
+            "wylie": "man dA ra ba",
+            "chinese": "曼达拉娃",
+            "english": "Mandarava",
+            "definition": "萨霍尔公主，莲师主要明妃之一",
+            "category": "historical_figure"
+        },
+        {
+            "english": "Mad Queen Dakini",
+            "chinese": "疯王妃",
+            "tibetan": "བརྒྱལ་མོ་སྨྱོན་མ",
+            "possible_name": "Lakshminkara",
+            "definition": "邬金公主，密续成就者，LGBT修行者的导师",
+            "category": "historical_figure"
+        },
+        {
+            "tibetan": "གེ་སར་རྒྱལ་པོ",
+            "wylie": "ge sar rgyal po",
+            "chinese": "格萨尔王",
+            "english": "Gesar of Ling",
+            "definition": "岭国国王，藏族史诗英雄，莲师化身",
+            "category": "historical_figure"
+        },
+        {
+            "tibetan": "རོང་ཟོམ་པཎྜི་ཏ",
+            "wylie": "rong zom paN Di ta",
+            "chinese": "荣索班智达",
+            "english": "Rongzom Pandita",
+            "dates": "1012-1088",
+            "definition": "宁玛派大学者，著有多部大圆满注疏",
+            "category": "historical_figure"
+        },
+        {
+            "tibetan": "ཟ་ཧོར",
+            "wylie": "za hor",
+            "chinese": "萨霍尔",
+            "english": "Zahor / Sahor",
+            "definition": "寂护与曼达拉娃的王国（今印度东北部）",
+            "category": "location"
+        },
+        {
+            "tibetan": "ཞི་བ་འཚོ",
+            "wylie": "zhi ba 'tsho",
+            "chinese": "寂护",
+            "english": "Shantarakshita",
+            "definition": "萨霍尔王子，出家后成为中观瑜伽行派大师",
+            "category": "historical_figure"
+        },
+        {
+            "english": "Zahor Royal Connection",
+            "chinese": "萨霍尔王室关联",
+            "definition": "寂护-曼达拉娃-莲师的兄妹-夫妻关系网络",
+            "category": "historical_analysis"
+        },
+        {
+            "english": "Uddiyana Female Awakeners",
+            "chinese": "邬金女性觉醒者",
+            "definition": "8世纪拒绝世俗婚姻、选择灵性道路的公主空行母群体",
+            "category": "historical_analysis"
+        },
+        {
+            "english": "Technological Celibacy",
+            "chinese": "技术性独身",
+            "definition": "通过内化的气脉视觉技术替代实体性瑜伽的修持体系",
+            "category": "theoretical_framework"
+        },
+        {
+            "tibetan": "ཚེ་དབང་རིག་འཛིན",
+            "wylie": "tshe dbang rig 'dzin",
+            "chinese": "长寿持明",
+            "english": "Life-Mastery Vidyadhara",
+            "definition": "四种持明果位之一，莲师所获成就",
+            "category": "attainment"
+        },
+        {
+            "english": "Fractal Recursion",
+            "chinese": "分形递归",
+            "definition": "双星结构在历史中的自相似性重复",
+            "category": "theoretical_framework"
+        },
+        {
+            "english": "Ultimate vs Expedient",
+            "chinese": "究竟vs方便",
+            "tibetan": "དོན་དམ་དང་ཐབས",
+            "wylie": "don dam dang thabs",
+            "definition": "明觉是究竟，所有世间叙事是方便",
+            "category": "buddhist_principle"
+        },
+        {
+            "english": "Pointing Finger vs Moon",
+            "chinese": "指月之手vs月亮",
+            "definition": "传承是指月之手，本觉是月亮本身",
+            "category": "metaphor"
+        }
+    ]
+}
