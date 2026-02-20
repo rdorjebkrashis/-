@@ -1,0 +1,384 @@
+---
+title: 《大乘集菩萨学处论·偈颂》术语表
+source_text: Śikṣāsamuccaya Kārikā (བསླབ་པ་ཀུན་ལས་བཏུས་པའི་ཚིག་ལེའུར་བྱས་པ།)
+author: Śāntideva
+extracted_by: LOTSAWA v2.2
+reviewed_by: rdorjebkrashis
+date: 2026-02-20
+version: "1.0"
+total_terms: 40
+---
+
+# 术语表：Śikṣāsamuccaya Kārikā
+
+## 一、核心概念术语 (Core Concepts)
+
+core_concepts:
+
+  - tibetan: བསླབ་པ་
+    wylie: bslab pa
+    sanskrit: śikṣā
+    chinese_traditional: 学处
+    chinese_contextual: 戒律/训练
+    english: training/discipline
+    notes: 菩萨修学的规范与训练体系，本论书名之核心词
+
+  - tibetan: གཏོང་བ་
+    wylie: gtong ba
+    sanskrit: tyāga
+    chinese: 舍
+    english: giving/relinquishing
+    context: 四法之首，毫无保留地将身、财、善根施予众生
+    notes: 全论四核心修持之一
+
+  - tibetan: བསྲུང་བ་
+    wylie: bsrung ba
+    sanskrit: rakṣā
+    chinese: 护
+    english: protecting/guarding
+    context: 四法之二，守护身、财、善根不受损失
+    notes: 全论四核心修持之一
+
+  - tibetan: དག་པ་
+    wylie: dag pa
+    sanskrit: śuddhi
+    chinese: 净
+    english: purifying/cleansing
+    context: 四法之三，净化身、财、善根中的污染
+    notes: 全论四核心修持之一
+
+  - tibetan: སྤེལ་བ་
+    wylie: spel ba
+    sanskrit: vardhana
+    chinese: 长
+    english: increasing/expanding
+    context: 四法之四，增长身、财、善根的功德
+    notes: 全论四核心修持之一
+
+  - tibetan: ལུས་
+    wylie: lus
+    sanskrit: kāya
+    chinese: 身
+    english: body
+    context: 三修持对象之一
+    notes: 修持的第一类对象
+
+  - tibetan: ལོངས་སྤྱོད་
+    wylie: longs spyod
+    sanskrit: bhoga
+    chinese: 受用/财
+    english: wealth/resources/enjoyments
+    context: 三修持对象之二，包括物质资源与受用
+    notes: 修持的第二类对象
+
+  - tibetan: དགེ་བ་
+    wylie: dge ba
+    sanskrit: kuśala
+    chinese: 善根/善
+    english: merit/virtue/wholesome deeds
+    context: 三修持对象之三，三世所积善根
+    notes: 修持的第三类对象
+
+  - tibetan: བྱང་ཆུབ་སེམས་
+    wylie: byang chub sems
+    sanskrit: bodhicitta
+    chinese: 菩提心
+    english: awakening mind/bodhicitta
+    context: 本论的修行根基与最终归宿
+    notes: 藏缩写，全称 byang chub kyi sems
+
+  - tibetan: སྡོམ་པ་
+    wylie: sdom pa
+    sanskrit: saṃvara
+    chinese: 律仪
+    english: vows/precepts/restraint
+    context: 菩萨律仪，广出于大乘经
+    notes: 菩提心的具体行持规范
+
+## 二、关键动词术语 (Key Verbal Terms)
+
+verbal_terms:
+
+  - tibetan: བཏང་བ་
+    wylie: btang ba
+    chinese: 施舍/放下
+    english: to give away/to relinquish
+    grammar: past tense of gtong ba
+    context: 将身财善根布施给一切有情
+
+  - tibetan: གནོད་པར་འགྱུར་བ་སྤང་བ་
+    wylie: gnod par 'gyur ba spang ba
+    chinese: 断除诸损恼
+    english: abandoning what causes harm
+    context: 护身的具体内容
+
+  - tibetan: འབྲས་བུ་མེད་པའི་བྱེད་སྤང་
+    wylie: 'bras bu med pa'i byed spang
+    chinese: 舍无义之作为
+    english: abandoning fruitless activities
+    context: 护身的方法，不做无意义之事
+
+  - tibetan: རྣམ་སྦྱང་
+    wylie: rnam sbyang
+    chinese: 净除/净化
+    english: to purify thoroughly
+    context: 净治身心的核心动作
+
+  - tibetan: བརྩོན་འགྲུས་
+    wylie: brtson 'grus
+    sanskrit: vīrya
+    chinese: 精进
+    english: diligence/effort
+    context: 增长善根的根本动力
+
+## 三、技术性难点术语 (Technically Difficult Terms)
+
+difficult_terms:
+
+  - tibetan: འཇིག་
+    wylie: "'jig"
+    chinese_literal: 坏/灭
+    chinese_chosen: 坏灭
+    chinese_alternative: 怖畏
+    english: destruction/deterioration
+    discussion: >
+      字面义为"坏、灭、毁"。《入行论》VIII.96 类似偈颂用 'jigs pa（怖畏），但本论
+      作为戒律论典，"坏灭"更为严谨，因戒律正是为了防止善根之坏灭。
+      架构师最终决定保留"坏灭"译法。
+    status: resolved
+    decision_maker: rdorjebkrashis
+
+  - tibetan: འདོར་རིག་བྱ
+    wylie: "'dor rig bya"
+    chinese_chosen: 摄知
+    chinese_alternative: 取舍而知
+    english: to comprehensively know/to summarize and understand
+    discussion: >
+      难点：'dor 可作"舍弃"，亦可是 mdor（归纳/摄略）的略写。
+      上下文逻辑：上句言菩萨律仪广出大乘经，此句言应将要点如何处理。
+      若作"舍弃"则逻辑不通；若作"摄略"则完全符合《集学论》（集=Samuccaya）
+      汇集大经大论精要之书名含义。确定为 mdor 的读音通假，译"摄知"。
+    status: resolved
+    decision_maker: rdorjebkrashis
+    wylie_alternative: mdor rig bya
+
+  - tibetan: གཟུང་འོས
+    wylie: gzung 'os
+    chinese_evolution:
+      - stage_1: 堪受持（直译）
+      - stage_2: 堪为法器（义译）
+      - stage_3: 摄受（动词化）
+      - stage_4: 摄众德（结合六度，最终定稿）
+    chinese_final: 摄受/摄众德
+    english: worthy of being taken up/capable of gathering merit
+    discussion: >
+      此词经历四个翻译阶段，从字面到义理层层深入。
+      架构师指出此处内义是六度，"摄众德"更准确传达菩萨摄受众生功德的含义。
+    status: resolved
+    decision_maker: rdorjebkrashis
+
+  - tibetan: དྲན་པ་
+    wylie: dran pa
+    sanskrit: smṛti
+    chinese_initial: 正念
+    chinese_final: 随念
+    english: mindfulness/recollection
+    discussion: >
+      初译"正念"，架构师润色为"随念"。
+      "随念"更准确，表示随顺经典教言而念，具有主动忆持的含义，
+      区别于禅修意义上的"正念"（sati）。
+    status: resolved
+    decision_maker: rdorjebkrashis
+
+  - tibetan: ཞི་བའི་ཆེ་བ་ཉིད་
+    wylie: zhi ba'i che ba nyid
+    chinese_initial: 寂静的伟大
+    chinese_final: 涅槃德
+    english: the greatness of peace/the virtue of nirvāṇa
+    discussion: >
+      直译"寂静的伟大"不通顺。破解过程：
+      1. 识别 zhi ba（寂静）常指涅槃；
+      2. che ba 可理解为"功德"；
+      3. 结合下句"了知后生精勤"，确定为"了知涅槃功德"；
+      4. 简化为"涅槃德"，工整且达意。
+    status: resolved
+    decision_maker: rdorjebkrashis
+
+  - tibetan: འགྱེད་པ་
+    wylie: "'gyed pa"
+    chinese_initial: 吝惜施后悔
+    chinese_final: 吝惜施舍
+    english: regret after giving/reluctance to give
+    discussion: >
+      指布施之后生起悔意或吝惜之心，是菩萨行中需要断除的过失。
+    status: resolved
+    decision_maker: rdorjebkrashis
+
+  - tibetan: མཉམ་གཞག་
+    wylie: mnyam gzhag
+    sanskrit: samāhita
+    chinese_initial: 三摩地
+    chinese_final: 等持
+    english: meditative equipoise/samādhi
+    discussion: >
+      架构师指出"等持"比"三摩地"或"禅定"更符合此处语境，
+      强调心的平等安住状态。
+    status: resolved
+    decision_maker: rdorjebkrashis
+
+## 四、人名与典籍术语 (Names & Texts)
+
+names_and_texts:
+
+  - tibetan: ཞི་བ་ལྷ་
+    wylie: zhi ba lha
+    sanskrit: Śāntideva
+    chinese: 寂天菩萨
+    english: Śāntideva
+    period: 8th century CE
+    notes: 印度中观派大师，本论作者
+
+  - tibetan: བདེ་གཤེགས་
+    wylie: bde gshegs
+    sanskrit: Sugata
+    chinese: 善逝
+    english: the Blissful One (epithet of Buddha)
+    notes: 如来十号之一
+
+  - tibetan: དཀོན་མཆོག་སྤྲིན་
+    wylie: dkon mchog sprin
+    sanskrit: Ratnamegha Sūtra
+    chinese: 宝云经
+    english: Jewel Cloud Sūtra
+    notes: 本论直接引用的重要经典，佛在其中教导戒律概要
+
+  - tibetan: འཕགས་པ་བཟང་སྤྱོད་
+    wylie: "'phags pa bzang spyod"
+    sanskrit: Bhadracaryā / Samantabhadracaryāpraṇidhānarāja
+    chinese: 普贤行愿
+    english: Noble Good Conduct / Samantabhadra's Aspiration Prayer
+    notes: 本论结行部分参照的修持仪轨
+
+## 五、修行境界与状态术语 (Practice States)
+
+practice_states:
+
+  - tibetan: བག་ཡོད་
+    wylie: bag yod
+    sanskrit: apramāda
+    chinese: 不放逸
+    english: heedfulness/conscientiousness
+    context: 修行的基本态度，与谨慎并列
+
+  - tibetan: ཤེས་བཞིན་
+    wylie: shes bzhin
+    sanskrit: samprajanya
+    chinese: 正知
+    english: clear knowing/introspective awareness
+    context: 与正念（dran pa）并列的两种修行能力
+
+  - tibetan: གུས་པ་
+    wylie: gus pa
+    chinese: 恭敬/诚敬
+    english: respect/veneration
+    context: 随念的生起之因，恭敬来自了知涅槃德
+
+  - tibetan: དད་པ་
+    wylie: dad pa
+    sanskrit: śraddhā
+    chinese: 信心/净信
+    english: faith/confidence
+    context: 修行的根基，需坚固不动摇
+
+  - tibetan: མི་གཡོ་
+    wylie: mi g.yo
+    chinese: 不动摇
+    english: unmoved/stable
+    context: 等持中心的安住状态
+
+  - tibetan: ཁེངས་པ་
+    wylie: khengs pa
+    chinese: 傲慢
+    english: arrogance/pride
+    context: 修行中需要恒常断除的过失
+
+  - tibetan: ཡིད་གཉིས་
+    wylie: yid gnyis
+    chinese: 疑惑心
+    english: doubt/double-mindedness
+    context: 对法生起疑惑，需要断除
+
+## 六、修行场所与方式 (Practice Places & Methods)
+
+practice_methods:
+
+  - tibetan: ནགས་
+    wylie: nags
+    chinese: 阿兰若/林间
+    english: forest/wilderness hermitage
+    context: 净化身心后依止的修行处所
+
+  - tibetan: མི་སྡུག་
+    wylie: mi sdug
+    chinese: 不净观
+    english: ugliness/foulness meditation
+    context: 等持修习中的观修法门之一
+
+  - tibetan: ཡང་དག་འཚོ་བ་
+    wylie: yang dag 'tsho ba
+    sanskrit: samyak-ājīva
+    chinese: 正命
+    english: right livelihood
+    context: 八正道之一，清净受用的基础
+
+  - tibetan: སྦྱིན་པ་
+    wylie: sbyin pa
+    sanskrit: dāna
+    chinese: 布施
+    english: generosity/giving
+    context: 六度之首，增长受用的方法
+
+  - tibetan: འགྲུབ་པ་ཡང་དག་སྤོང་
+    wylie: 'grub pa yang dag spong
+    chinese: 四种正断
+    english: four right endeavors/four correct abandonments
+    notes: 佛教修行体系中的四正勤
+
+## 七、比喻性术语 (Metaphorical Terms)
+
+metaphors:
+
+  - tibetan: མྱུ་གུ་
+    wylie: myu gu
+    chinese: 苗芽/佛芽
+    english: sprout/bud
+    context: 比喻菩萨行者的出世善根，如同庄稼的幼苗
+
+  - tibetan: འབྲས་ཆན་
+    wylie: 'bras chan
+    chinese: 熟饭食
+    english: well-cooked rice/food
+    context: 比喻净治身心后的功德，如烹熟之米饭利益众生
+
+  - tibetan: ལོ་ཏོག་བཙས་ཁེབས་
+    wylie: lo tog btsas khebs
+    chinese: 杂草覆盖庄稼
+    english: weeds covering crops
+    context: 比喻烦恼遮蔽善根功德
+
+  - tibetan: ཐལ་བས་གཡོགས་པའི་མེ་
+    wylie: thal bas g.yogs pa'i me
+    chinese: 灰覆之火
+    english: fire covered by ash
+    context: 比喻菩萨失去摄众德后的过失如暗火灼烧
+
+## 术语统计
+
+- 核心概念术语：10 条
+- 关键动词术语：5 条
+- 技术性难点术语：7 条
+- 人名与典籍术语：4 条
+- 修行境界与状态术语：7 条
+- 修行场所与方式：5 条
+- 比喻性术语：4 条
+- **合计：42 条**
