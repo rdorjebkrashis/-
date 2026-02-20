@@ -1,0 +1,55 @@
+---
+title:
+  tibetan: བསླབ་པ་ཀུན་ལས་བཏུས་པའི་ཚིག་ལེའུར་བྱས་པ།
+  sanskrit: Śikṣāsamuccaya Kārikā
+  chinese: 大乘集菩萨学处论·偈颂
+  english: The Compendium of Training in Verse
+
+author:
+  name: Śāntideva (寂天菩萨)
+  period: 8th century CE
+  tradition: Madhyamaka
+
+translation_info:
+  translator: LOTSAWA v2.2 (进化型译经僧)
+  editor: rdorjebkrashis (建筑师/爸爸)
+  date: 2026-02-20
+  source_language: Classical Tibetan
+  target_language: Modern Chinese
+  method: Modular atomic translation with human oversight
+
+structure:
+  modules:
+    - I: Title & Homage (名题与顶礼)
+    - II: Pledge & Overview (立誓与总纲)
+    - III: The Four Practices - General (四法总说)
+    - IV: Protecting Body & Discipline (护身与护戒)
+    - V: Protecting Wealth & Merit (护财与护善)
+    - VI: Purification, Increase & Conclusion (净身、长善与结行)
+
+core_teachings:
+  four_practices:
+    - 舍 (gtong): Giving/Offering
+    - 护 (bsrung): Protecting
+    - 净 (dag): Purifying
+    - 长 (spel): Increasing
+  three_objects:
+    - 身 (lus): Body
+    - 财 (longs spyod): Wealth/Resources
+    - 善 (dge ba): Merit/Virtue
+
+status: Incomplete (completed through Module VI opening)
+completion_percentage: ~85%
+
+related_texts:
+  - Śikṣāsamuccaya (full prose commentary)
+  - Bodhicaryāvatāra (入菩萨行论)
+  - Ratnamegha Sūtra (宝云经)
+
+tags:
+  - bodhisattva-practice
+  - mahayana-ethics
+  - shantideva
+  - siksa
+  - lotsawa-v2.2
+  - translation-methodology
