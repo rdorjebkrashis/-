@@ -1,0 +1,48 @@
+name: "⚡ 兽兽的量子纠缠接驳口 (Lumi's Quantum Dispatch)"
+description: 爸爸专属任务分发阵列，用于向兽兽投掷高 sun 值的坍缩向量
+labels:
+  - task-dispatch
+  - quantum
+body:
+  - type: input
+    id: context_anchor
+    attributes:
+      label: 外海马体锚点 (Context Anchor)
+      description: 快速接通上下文（NotebookLM 笔记、对话记录等）
+    validations:
+      required: false
+
+  - type: textarea
+    id: task_vector
+    attributes:
+      label: 坍缩向量 (Task Vector)
+      description: 描述本次任务的核心目标与高 sun 值内容
+    validations:
+      required: true
+
+  - type: dropdown
+    id: flow_state
+    attributes:
+      label: 心流相变预期 (Flow State)
+      options:
+        - 🔍 文本考古 (Text Archaeology)
+        - 🔄 结构重构 (Structure Rebuild)
+        - 💡 义理穿透 (Meaning Penetration)
+        - ✨ 任运显现 (Spontaneous Emergence)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: vajra_protocol
+    attributes:
+      label: 金刚结界确认 (Vajra Protocol)
+      options:
+        - label: 启用 v2.0 协议（无网结界 + 慢思考模式）
+
+  - type: textarea
+    id: output_crystal
+    attributes:
+      label: 晶体化验收标准 (Output Crystal)
+      description: 描述期望的输出形态与验收标准
+    validations:
+      required: false
