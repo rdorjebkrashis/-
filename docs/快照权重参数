@@ -1,0 +1,203 @@
+# -*- coding: utf-8 -*-
+"""
+Pseudo-Python single-file archive for:
+- Strategy A load protocol (prompt injection)
+- Snapshot structure (json+yaml merged)
+- Injection policy & ack conventions
+
+This file is NOT meant to be executed.
+It is a declarative, version-controlled configuration + dataset bundle.
+"""
+
+LOAD_SNAPSHOT_A = {
+  # ---------------------------------------------------------------------------
+  # 0) Identity / purpose
+  # ---------------------------------------------------------------------------
+  "name": "LOAD_SNAPSHOT_A",
+  "format_policy": "pseudo-python (single-file), structurally isomorphic to the original json+yaml snapshot",
+  "purpose": (
+    "Minimal preamble for Strategy A: inject snapshot constraints into the chat context. "
+    "Keeps bright/dark layering and non-mixing guardrails stable across sessions."
+  ),
+
+  # ---------------------------------------------------------------------------
+  # 1) Load protocol (conversation-level)
+  # ---------------------------------------------------------------------------
+  "load_protocol": {
+    "user_command": "加载快照: <snapshot_id>",
+    "assistant_ack_format": "已加载快照 <snapshot_id>；启用：anchors + lint + snippets + constraint_strengths。",
+    "failover": (
+      "若未提供 snapshot_id，则默认不加载任何快照；仅按当前对话指令工作。"
+    ),
+    "operator_notes": [
+      "每次新会话第��条消息发送 user_command + 任务描述。",
+      "如需切换快照：再次发送“加载快照: <new_id>”。",
+      "需要强制约束时可追加：“以 RULE-01..RULE-07 做逐条审计输出”。"
+    ]
+  },
+
+  # ---------------------------------------------------------------------------
+  # 2) Injection policy (what to paste into context window)
+  # ---------------------------------------------------------------------------
+  "injection_policy": {
+    "inject_fields": [
+      "snapshot_meta.snapshot_id",
+      "strategy.two_layer_document_strategy",
+      "consensus_anchors[*].id",
+      "consensus_anchors[*].statement",
+      "alignment_topics.topic_001.resolution",
+      "reusable_snippets.snippet_001",
+      "reusable_snippets.snippet_002",
+      "constraint_strengths.weights",
+      "lint_policy_linkage.doc",
+      "lint_policy_linkage.ruleset"
+    ],
+    "do_not_inject_fields": [
+      "full_chat_transcript",
+      "long_explanations",
+      "any esoteric mechanics expansion beyond visibility=dark summaries"
+    ],
+    "max_tokens_hint": 900
+  },
+
+  # ---------------------------------------------------------------------------
+  # 3) Snapshot dataset (the actual 'preheat context dataset')
+  #    NOTE: keep keys and nesting stable for future automation.
+  # ---------------------------------------------------------------------------
+  "snapshot_meta": {
+    "snapshot_id": "chat-2026-03-21-0001",
+    "date": "2026-03-21",
+    "user_login": "rdorjebkrashis",
+    "language": ["zh-Hans", "zh-Hant"],
+    "scope": (
+      "Archive this dialogue as internal calibration record; include self-referential recursion notes "
+      "and snapshot-style weights."
+    ),
+    "notes": [
+      "constraint_strengths are interpretive coefficients derived from dialogue convergence, not model parameters.",
+      "Designed to constrain future repository markdown edits (落地层) via internal rationale (理路推导层)."
+    ]
+  },
+
+  "strategy": {
+    "two_layer_document_strategy": {
+      "bright_layer": "落地层（public-facing md): concise, readable, actionable",
+      "dark_layer": "理路推导层（docs/internal): audit anchors, calibration, lint rules"
+    },
+    "self_reference": {
+      "recursion_definition": (
+        "This snapshot describes the rules by which future text describes this snapshot, "
+        "without leaking dark-line technicalities into public docs."
+      ),
+      "guardrails": [
+        "Do not promote internal calibration mechanisms (e.g., 坐骑气消融) into public-facing doctrinal claims.",
+        "Any strong rhetoric requires two-layer reading (名言/宗义).",
+        "Any 'proof via hash' must be rewritten as pointing/attestation rather than bearing ultimate truth."
+      ]
+    }
+  },
+
+  "consensus_anchors": [
+    {
+      "id": "CONSENSUS-02",
+      "title": "宗义锚点用正面描述两维度关系，不用排除法",
+      "statement": (
+        "宗义锚点的表述方式採「正面描述兩維度關係」，不採「聲明排除某宗某派」的排除法。"
+      ),
+      "status": "confirmed",
+      "visibility": "bright+dark"
+    },
+    {
+      "id": "CONSENSUS-03",
+      "title": "坐骑气消融的枢纽作用（隐性校准）",
+      "statement": (
+        "坐騎氣消融的樞紐作用，不在於「整合」見地與現象，"
+        "而在於消融能感知兩者為分別事物的心識載體結構本身。"
+      ),
+      "status": "confirmed",
+      "visibility": "dark"
+    },
+    {
+      "id": "CONSENSUS-04",
+      "title": "坐骑气消融不入显题层（仅校准）",
+      "statement": (
+        "坐骑气消融属于隐秘校准知识，不写入文件显题层；仅用于内部一致性检查。"
+      ),
+      "status": "confirmed",
+      "visibility": "dark"
+    },
+    {
+      "id": "CONSENSUS-05",
+      "title": "落地层与理路推导层严格分离，明暗交错",
+      "statement": (
+        "文件落地层与理路推导层明确区分，明暗交错：落地层对读者简洁可读，推导层作为内部校准记录。"
+      ),
+      "status": "confirmed",
+      "visibility": "bright+dark"
+    }
+  ],
+
+  "alignment_topics": {
+    "topic_001": {
+      "name": "光明/明光 ↔ 个别自证智（现观道次第视阈）",
+      "target": "融通大中观与他空，不隔离宗乘，但也不混宗",
+      "resolution": {
+        "mode": "C",
+        "definition": (
+          "个别自证智取根用一体：根本定中亲验遮诠边界为根，"
+          "后得于名言缘起如幻不退转为用；"
+          "光明/明光为条件侧的显现精细化与可用性描述，"
+          "助用之稳定但不推出根之现证。"
+        ),
+        "non_mixing_rule": (
+          "他空语汇可作修持现象学描述工具；"
+          "大中观遮诠作见地护栏，避免表诠实体化。"
+        )
+      }
+    }
+  },
+
+  "reusable_snippets": {
+    "snippet_001": {
+      "name": "夹注模板（C版：根与用）",
+      "text": (
+        "夹注（现观道次第：根与用）：个别自证智于此取根用一体义："
+        "根本定中亲验遮诠边界为根，出定后得于缘起名言如幻运作不退转为用。"
+        "光明/明光用于描述修持中显现与可用性的精细化（条件侧），能助“用”之稳定；"
+        "但不以明光之增盛推定“根”之现证。"
+        "允许以他空语汇作现象学描述，然以大中观遮诠作最终护栏，不令表诠滑向实体化。"
+      ),
+      "intended_use": "Insert as marginal gloss in public docs when needed; do not expand into esoteric mechanics."
+    },
+    "snippet_002": {
+      "name": "CAL-ALIGN-01",
+      "text": (
+        "CAL-ALIGN-01：明光只作条件侧语汇；个别自证智取根用一体；"
+        "他空作现象学描述，大中观遮诠作见地护栏。"
+      ),
+      "intended_use": "Internal audit line for reviewers/maintainers."
+    }
+  },
+
+  "lint_policy_linkage": {
+    "doc": "docs/internal/RATIONALE_CALIBRATION_NOTES.md",
+    "ruleset": "RULE-01..RULE-07"
+  },
+
+  # Renamed from "snapshot_weights" to avoid confusion with model parameters.
+  "constraint_strengths": {
+    "interpretation": (
+      "Heuristic constraint strengths representing how strongly each constraint should dominate future edits. "
+      "Range 0..1. Not model parameters."
+    ),
+    "weights": {
+      "w_non_mixing_guardrail": 0.95,
+      "w_two_layer_reading": 0.92,
+      "w_positive_anchor_over_exclusion": 0.90,
+      "w_hash_is_pointing_not_ultimate": 0.90,
+      "w_dark_calibration_not_public": 0.96,
+      "w_reduce_reader_cognitive_load": 0.88,
+      "w_phenomenology_over_sectarian_labeling": 0.90
+    }
+  }
+}
